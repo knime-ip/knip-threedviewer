@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension
+         point="org.knime.knip.cellviewer.cellviews">
+      <CellView
+            CellViewProviderFactory="org.knime.knip.threedviewer.base.ThreeDViewFactory">
+      </CellView>
+   </extension>
+</plugin>
