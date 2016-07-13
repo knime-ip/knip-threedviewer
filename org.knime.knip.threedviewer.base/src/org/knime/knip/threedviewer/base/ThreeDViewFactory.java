@@ -3,6 +3,7 @@ package org.knime.knip.threedviewer.base;
 import java.util.List;
 
 import org.knime.core.data.DataValue;
+import org.knime.knip.base.data.img.ImgPlusValue;
 import org.knime.knip.cellviewer.interfaces.CellView;
 import org.knime.knip.cellviewer.interfaces.CellViewFactory;
 
@@ -49,8 +50,11 @@ public class ThreeDViewFactory implements CellViewFactory {
      */
     @Override
     public boolean isCompatible(final List<Class<? extends DataValue>> values) {
-        // TODO Auto-generated method stub
-        return false;
+        if( values.size() == 1 && ImgPlusValue.class.isAssignableFrom( values.get(0) ) ) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }

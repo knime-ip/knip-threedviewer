@@ -10,4 +10,5 @@ Bundle-ActivationPolicy: lazy
 Require-Bundle: imglib2;bundle-version="2.9.0",
  org.knime.base;bundle-version="3.2.0",
  org.knime.knip.base;bundle-version="1.5.1",
- org.knime.knip.cellviewer;bundle-version="1.5.1"
+ org.knime.knip.cellviewer;bundle-version="1.5.1",
+ imagej-common;bundle-version="0.21.0"
