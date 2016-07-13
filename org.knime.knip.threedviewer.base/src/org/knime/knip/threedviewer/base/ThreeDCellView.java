@@ -18,8 +18,7 @@ public class ThreeDCellView implements CellView {
      */
     @Override
     public JPanel getViewComponent() {
-        // TODO Auto-generated method stub
-        return null;
+        return new JPanel();
     }
 
     /**
@@ -36,8 +35,7 @@ public class ThreeDCellView implements CellView {
      */
     @Override
     public void onClose() {
-        // TODO Auto-generated method stub
-
+        // FIXME
     }
 
     /**
@@ -45,8 +43,7 @@ public class ThreeDCellView implements CellView {
      */
     @Override
     public void onReset() {
-        // TODO Auto-generated method stub
-
+        // FIXME
     }
 
 }

@@ -14,7 +14,6 @@ public class ThreeDViewFactory implements CellViewFactory {
      */
     @Override
     public int compareTo(final CellViewFactory o) {
-        // TODO Auto-generated method stub
         return 0;
     }
 
@@ -23,8 +22,7 @@ public class ThreeDViewFactory implements CellViewFactory {
      */
     @Override
     public CellView createCellView() {
-        // TODO Auto-generated method stub
-        return null;
+        return new ThreeDCellView();
     }
 
     /**
@@ -32,8 +30,7 @@ public class ThreeDViewFactory implements CellViewFactory {
      */
     @Override
     public String getCellViewName() {
-        // TODO Auto-generated method stub
-        return null;
+        return "Three D Viewer";
     }
 
     /**
@@ -41,8 +38,7 @@ public class ThreeDViewFactory implements CellViewFactory {
      */
     @Override
     public String getCellViewDescription() {
-        // TODO Auto-generated method stub
-        return null;
+        return "ThreeDViewerBlah";
     }
 
     /**
@@ -50,7 +46,7 @@ public class ThreeDViewFactory implements CellViewFactory {
      */
     @Override
     public boolean isCompatible(final List<Class<? extends DataValue>> values) {
-        if( values.size() == 1 && ImgPlusValue.class.isAssignableFrom( values.get(0) ) ) {
+        if (values.size() == 1 && ImgPlusValue.class.isAssignableFrom(values.get(0))) {
             return true;
         } else {
             return false;

@@ -5,7 +5,18 @@ Bundle-ManifestVersion: 2
 Bundle-Version: 0.1.0.qualifier
 Bundle-Vendor: University of Idaho / University of Konstanz
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Bundle-ClassPath: .
+Bundle-ClassPath: .,
+ libs/cleargl-2.0.0-SNAPSHOT.jar,
+ libs/CoreMem-0.1.5.jar,
+ libs/jinput-2.0.6.jar,
+ libs/jinput-platform-2.0.6-natives-linux.jar,
+ libs/jinput-platform-2.0.6-natives-osx.jar,
+ libs/jinput-platform-2.0.6-natives-windows.jar,
+ libs/kotlin-stdlib-1.0.3.jar,
+ libs/openvr-0.1.jar,
+ libs/scenery-1.0-SNAPSHOT.jar,
+ libs/imagej-ops-0.30.1-SNAPSHOT.jar,
+ libs/ThreeDViewer-0.0.1-SNAPSHOT.jar
 Bundle-ActivationPolicy: lazy
 Require-Bundle: imglib2;bundle-version="2.9.0",
  org.knime.base;bundle-version="3.2.0",
