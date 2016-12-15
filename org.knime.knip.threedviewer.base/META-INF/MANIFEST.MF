@@ -28,4 +28,6 @@ Require-Bundle: imglib2;bundle-version="2.9.0",
  script-editor;bundle-version="0.1.0",
  imglib2-ij;bundle-version="2.0.33",
  ij;bundle-version="1.50.0",
- imagej-common;bundle-version="0.21.0"
+ imagej-common;bundle-version="0.21.0",
+ imagej-ops;bundle-version="0.33.0",
+ imagej-deprecated;bundle-version="0.1.1"
