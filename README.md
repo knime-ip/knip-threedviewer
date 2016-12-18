@@ -1,5 +1,3 @@
-KNIME Image Processing - ClearVolume Integration (based on KNIP)
+KNIME Image Processing - ThreeDviewer Integration (based on KNIP)
 ========
-Integration of ClearVolume in KNIME.
-
-See also https://tech.knime.org/book/clearvolume
+Integration of ThreeDViewer in KNIME.
